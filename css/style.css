@@ -30,7 +30,7 @@ body{
 }
 
 #main-header .container{
-    background-image: url('../images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     height: 600px;
 }
 
@@ -52,4 +52,6 @@ body{
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    margin: 0;
+    padding: 0;
 }
