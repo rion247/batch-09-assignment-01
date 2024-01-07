@@ -24,3 +24,32 @@ body{
     height: auto;
     margin: 0 auto;
 }
+
+#main-header{
+    margin-top: 50px;
+}
+
+#main-header .container{
+    background-image: url('../images/Banner\ Image.png');
+    height: 600px;
+}
+
+#main-header .container .main-header-text{
+    padding: 177px 344px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#main-header .container .main-header-text h3{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#main-header .container .main-header-text h1{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
