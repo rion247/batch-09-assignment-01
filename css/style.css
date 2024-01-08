@@ -293,27 +293,32 @@ body{
 
 .fuctional-holiday-sale .container .holiday-sale-images{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: relative; 
     background-image: url('../images/Rectangle\ 2.png');
+    background-size: contain;
     background-position: bottom; 
     background-repeat: no-repeat; 
 } 
 
-.fuctional-holiday-sale .container .holiday-sale-images .holiday-sale-images-01{
-    width: 50%;  
+.fuctional-holiday-sale .container .holiday-sale-images img.holiday-sale-images-01{
+    width: 50%;
 }
 
 .fuctional-holiday-sale .container .holiday-sale-images img.holiday-sale-images-02{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fuctional-holiday-sale .container .holiday-sale-images img.holiday-sale-images-03{
     position: absolute;
     width: 220px;
     height: 220px;
     top: 76.96px;
     right: 276.73px;
-    background-image: url('../images/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-size: auto;
 }
 
 .portfolio-section .container{
